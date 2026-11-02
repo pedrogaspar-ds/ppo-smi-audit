@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
+# generated or third-party market data
+results/data.pkl
+original/
+figures/
+# LaTeX build files
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.toc

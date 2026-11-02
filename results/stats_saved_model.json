@@ -1,0 +1,64 @@
+{
+ "model": "ppo_smi_agent_master_v2 (saved model behind Table 5.1)",
+ "date_alignment_share": 1.0,
+ "max_abs_return_gap_vs_data_pkl": 2.0317948712378353e-16,
+ "thesis_accounting": {
+  "sharpe": 1.170452281862333,
+  "cum": 0.051806805985394666,
+  "mdd": -0.007700742401233418,
+  "vs_BH_price_rf0": {
+   "5": {
+    "sharpe_diff_ann": 0.8656057517864907,
+    "se_ann": 0.7553489096851003,
+    "t": 1.1459680959192167,
+    "p": 0.2664,
+    "block": 5
+   },
+   "10": {
+    "sharpe_diff_ann": 0.8656057517864907,
+    "se_ann": 0.7553489096851003,
+    "t": 1.1459680959192167,
+    "p": 0.26,
+    "block": 10
+   },
+   "20": {
+    "sharpe_diff_ann": 0.8656057517864907,
+    "se_ann": 0.7553489096851003,
+    "t": 1.1459680959192167,
+    "p": 0.2656,
+    "block": 20
+   }
+  }
+ },
+ "consistent_accounting": {
+  "cum": 0.07504710859687247,
+  "sharpe_excess_saron": 1.0373213960618253,
+  "BH_price_sharpe_excess": 0.1771832109779776,
+  "tests": {
+   "BH price": {
+    "sharpe_diff_ann": 0.8601381850838475,
+    "se_ann": 0.7483287452557029,
+    "t": 1.1494121942221256,
+    "p": 0.2652,
+    "block": 10,
+    "p_holm": 0.7956
+   },
+   "BH total return": {
+    "sharpe_diff_ann": 0.5198055811787992,
+    "se_ann": 0.7462574137763577,
+    "t": 0.6965499726808438,
+    "p": 0.5002,
+    "block": 10,
+    "p_holm": 1.0
+   },
+   "60/40 real ETFs": {
+    "sharpe_diff_ann": 0.2241338366888856,
+    "se_ann": 0.7763323999015631,
+    "t": 0.2887085953353295,
+    "p": 0.7744,
+    "block": 10,
+    "p_holm": 1.0
+   }
+  }
+ }
+}

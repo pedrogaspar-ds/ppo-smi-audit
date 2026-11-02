@@ -1,0 +1,344 @@
+{
+ "window": "2023-01-03..2024-12-30",
+ "method": "Ledoit-Wolf (2008)-style test of equal Sharpe ratios: HAC (Bartlett, Newey-West lag) studentized difference, circular block bootstrap of the studentized statistic, 4,999 resamples; Holm adjustment within each family",
+ "families": {
+  "F0_thesis_accounting_seed27_vs_BH_price_rf0": {
+   "5": {
+    "sharpe_diff_ann": 1.168000725149272,
+    "se_ann": 0.5982954319760914,
+    "t": 1.9522140112143573,
+    "p": 0.0666,
+    "block": 5
+   },
+   "10": {
+    "sharpe_diff_ann": 1.168000725149272,
+    "se_ann": 0.5982954319760914,
+    "t": 1.9522140112143573,
+    "p": 0.064,
+    "block": 10
+   },
+   "20": {
+    "sharpe_diff_ann": 1.168000725149272,
+    "se_ann": 0.5982954319760914,
+    "t": 1.9522140112143573,
+    "p": 0.0698,
+    "block": 20
+   }
+  },
+  "F1_consistent_seed27": {
+   "BH price": {
+    "sharpe_diff_ann": 1.0625069064610864,
+    "se_ann": 0.5920272459666268,
+    "t": 1.7946925816332802,
+    "p": 0.0876,
+    "block": 10,
+    "p_holm": 0.2628
+   },
+   "BH total return": {
+    "sharpe_diff_ann": 0.7221743025560379,
+    "se_ann": 0.6038630056873798,
+    "t": 1.1959240684631505,
+    "p": 0.2628,
+    "block": 10,
+    "p_holm": 0.5256
+   },
+   "60/40 real ETFs": {
+    "sharpe_diff_ann": 0.42650255806612436,
+    "se_ann": 0.6761193482112234,
+    "t": 0.6308095740707639,
+    "p": 0.5524,
+    "block": 10,
+    "p_holm": 0.5524
+   }
+  },
+  "F2_consistent_corrected_seed2": {
+   "BH price": {
+    "sharpe_diff_ann": 0.6172187602707944,
+    "se_ann": 0.861026231313377,
+    "t": 0.7168408322813953,
+    "p": 0.4872,
+    "block": 10,
+    "p_holm": 1.0
+   },
+   "BH total return": {
+    "sharpe_diff_ann": 0.276886156365746,
+    "se_ann": 0.8553503095589233,
+    "t": 0.3237108273317014,
+    "p": 0.7514,
+    "block": 10,
+    "p_holm": 1.0
+   },
+   "60/40 real ETFs": {
+    "sharpe_diff_ann": -0.018785588124167574,
+    "se_ann": 0.883246720816048,
+    "t": -0.02126878898209916,
+    "p": 0.9848,
+    "block": 10,
+    "p_holm": 1.0
+   },
+   "RSI 30/70 rule": {
+    "sharpe_diff_ann": 0.2604414257327455,
+    "se_ann": 0.848564633650787,
+    "t": 0.3069199627284089,
+    "p": 0.758,
+    "block": 10,
+    "p_holm": 1.0
+   }
+  }
+ },
+ "across_seeds": {
+  "thesis_config_30_seeds_gross_rf0_vs_BH_price": {
+   "n": 30,
+   "testable": 15,
+   "reject_5pct": 0,
+   "rows": [
+    {
+     "seed": 0,
+     "invests": false,
+     "p": 0.3725,
+     "diff": 0.40650717686996557
+    },
+    {
+     "seed": 1,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 2,
+     "invests": true,
+     "p": 0.211,
+     "diff": 0.9661791870173712
+    },
+    {
+     "seed": 3,
+     "invests": true,
+     "p": 0.235,
+     "diff": 0.8763529617108499
+    },
+    {
+     "seed": 4,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 5,
+     "invests": true,
+     "p": 0.2105,
+     "diff": 0.961885853854179
+    },
+    {
+     "seed": 6,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 7,
+     "invests": true,
+     "p": 0.292,
+     "diff": 0.8140070981296076
+    },
+    {
+     "seed": 8,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 9,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 10,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 11,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 12,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 13,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 14,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 15,
+     "invests": true,
+     "p": 0.217,
+     "diff": 0.8926185327816493
+    },
+    {
+     "seed": 16,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 17,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 18,
+     "invests": true,
+     "p": 0.236,
+     "diff": 0.9520577685661945
+    },
+    {
+     "seed": 19,
+     "invests": false,
+     "p": 0.3725,
+     "diff": 0.40650717686996546
+    },
+    {
+     "seed": 20,
+     "invests": true,
+     "p": 0.1535,
+     "diff": 1.0484631087659442
+    },
+    {
+     "seed": 21,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 22,
+     "invests": true,
+     "p": 0.2175,
+     "diff": 0.9578277165821826
+    },
+    {
+     "seed": 23,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 24,
+     "invests": true,
+     "p": 0.1905,
+     "diff": 1.0045548304237737
+    },
+    {
+     "seed": 25,
+     "invests": true,
+     "p": 0.0655,
+     "diff": 1.179460098611845
+    },
+    {
+     "seed": 26,
+     "invests": true,
+     "p": 0.1705,
+     "diff": 1.0493389322768847
+    },
+    {
+     "seed": 27,
+     "invests": true,
+     "p": 0.0635,
+     "diff": 1.168000725149272
+    },
+    {
+     "seed": 28,
+     "invests": false,
+     "p": null,
+     "diff": null
+    },
+    {
+     "seed": 29,
+     "invests": true,
+     "p": 0.177,
+     "diff": 1.031901610812504
+    }
+   ]
+  },
+  "corrected_10_seeds_consistent_vs_BH_price": {
+   "n": 10,
+   "reject_5pct": 0,
+   "rows": [
+    {
+     "seed": 0,
+     "invests": true,
+     "p": 0.1525,
+     "diff": 1.0055964970868856
+    },
+    {
+     "seed": 1,
+     "invests": true,
+     "p": 0.2515,
+     "diff": 0.8360350438927276
+    },
+    {
+     "seed": 2,
+     "invests": true,
+     "p": 0.4855,
+     "diff": 0.6172187602707944
+    },
+    {
+     "seed": 3,
+     "invests": true,
+     "p": 0.2365,
+     "diff": 0.9228254588212479
+    },
+    {
+     "seed": 4,
+     "invests": true,
+     "p": 0.6495,
+     "diff": 0.3741143470940863
+    },
+    {
+     "seed": 5,
+     "invests": true,
+     "p": 0.6095,
+     "diff": 0.2662750089289638
+    },
+    {
+     "seed": 6,
+     "invests": true,
+     "p": 0.52,
+     "diff": 0.5274503684454078
+    },
+    {
+     "seed": 7,
+     "invests": true,
+     "p": 0.285,
+     "diff": 0.7818919558493688
+    },
+    {
+     "seed": 8,
+     "invests": true,
+     "p": 0.699,
+     "diff": 0.29703049294346556
+    },
+    {
+     "seed": 9,
+     "invests": true,
+     "p": 0.818,
+     "diff": 0.18616405179734474
+    }
+   ]
+  }
+ }
+}
